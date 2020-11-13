@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/db1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="HOME"
+        android:textSize="60dp"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="ADD HOD"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="ADD DEPARTMENT"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimary" />
+
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="VIEW ALL USERS"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimary" />
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="VIEW ALL VENUES"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimary" />
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center"
+            android:text="LOGOUT"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>
