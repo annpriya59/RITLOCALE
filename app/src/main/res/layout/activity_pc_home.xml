@@ -74,14 +74,14 @@
                         android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/imageView3"
+                        android:layout_below="@id/userpro"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="User profile"
                         android:textSize="24sp"
                         app:fontFamily="aclonica" />
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/userpro"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
@@ -112,14 +112,14 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/bus1"
+                        android:layout_below="@id/userappro"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Calendar"
                         android:textSize="24sp"
                         app:fontFamily="aclonica" />
                     <ImageView
-                        android:id="@+id/bus1"
+                        android:id="@+id/userappro"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
@@ -139,14 +139,14 @@
                         android:id="@+id/textView7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/train"
+                        android:layout_below="@id/vrequest"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Map"
                         android:textSize="24sp"
                         app:fontFamily="aclonica" />
                     <ImageView
-                        android:id="@+id/train"
+                        android:id="@+id/vrequest"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
@@ -176,7 +176,7 @@
                         android:id="@+id/textView8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/cycle"
+                        android:layout_below="@id/notification"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="10dp"
                         android:text="Notifications"
@@ -184,7 +184,7 @@
                         android:textSize="24sp"
                         app:fontFamily="aclonica" />
                     <ImageView
-                        android:id="@+id/cycle"
+                        android:id="@+id/notification"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"

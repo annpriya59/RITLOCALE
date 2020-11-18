@@ -127,8 +127,8 @@
 
             <Spinner
                 android:id="@+id/dep"
-                android:layout_width="175dp"
-                android:layout_height="wrap_content"
+                android:layout_width="210dp"
+                android:layout_height="62dp"
                 android:ems="10"></Spinner>
         </LinearLayout>
     </LinearLayout>
@@ -147,7 +147,7 @@
 
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnaddHod"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

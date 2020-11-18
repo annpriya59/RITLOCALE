@@ -14,10 +14,10 @@ public class Venuecd_home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_venuecd_home);
         venue= (ImageView)findViewById(R.id.bus);
-        pro= (ImageView)findViewById(R.id.imageView3);
-        venuereq = (ImageView)findViewById(R.id.train);
+        pro= (ImageView)findViewById(R.id.userpro);
+        venuereq = (ImageView)findViewById(R.id.vrequest);
         log = (ImageView)findViewById(R.id.logout);
-        notif = (ImageView)findViewById(R.id.cycle);
+        notif = (ImageView)findViewById(R.id.notification);
 
         venue.setOnClickListener(new View.OnClickListener() {
             @Override

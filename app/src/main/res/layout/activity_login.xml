@@ -21,7 +21,7 @@
         android:layout_marginTop="20dp"
         android:text="Email"/>
     <EditText
-        android:id="@+id/txtEmail"
+        android:id="@+id/txtOpwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"

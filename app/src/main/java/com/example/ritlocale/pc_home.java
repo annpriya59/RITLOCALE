@@ -15,11 +15,11 @@ ImageView venue,pro,cal,map,log,notif;
         setContentView(R.layout.activity_pc_home);
 
         venue= (ImageView)findViewById(R.id.bus);
-        pro= (ImageView)findViewById(R.id.imageView3);
-        cal = (ImageView)findViewById(R.id.bus1);
-        map = (ImageView)findViewById(R.id.train);
+        pro= (ImageView)findViewById(R.id.userpro);
+        cal = (ImageView)findViewById(R.id.userappro);
+        map = (ImageView)findViewById(R.id.vrequest);
         log = (ImageView)findViewById(R.id.logout);
-        notif = (ImageView)findViewById(R.id.cycle);
+        notif = (ImageView)findViewById(R.id.notification);
 
         venue.setOnClickListener(new View.OnClickListener() {
             @Override

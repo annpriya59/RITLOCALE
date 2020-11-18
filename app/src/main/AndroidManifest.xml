@@ -25,11 +25,7 @@
         <activity android:name=".vc_bookreq" />
         <activity android:name=".Venuecd_home" >
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity android:name=".addimage" />
         <activity android:name=".hod_psdchng" />
@@ -37,15 +33,30 @@
         <activity android:name=".registration_approval" />
         <activity android:name=".Editpro_hod" />
         <activity android:name=".hod_userprofile" />
-        <activity android:name=".hod_home" />
-        <activity android:name=".viewvenues" />
-        <activity android:name=".viewusers" />
-        <activity android:name=".addhod" />
-        <activity android:name=".adminhome">
+        <activity android:name=".hod_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
-        <activity android:name=".adddept" />
+
+        <activity android:name=".viewvenues" />
+        <activity android:name=".viewusers" />
+        <activity android:name=".addhod" >
+
+        </activity>
+        <activity android:name=".adminhome">
+
+
+        </activity>
+        <activity android:name=".adddept" >
+
+        </activity>
+
         <activity android:name=".login">
+
 
         </activity>
         <activity android:name=".registration_main" />
