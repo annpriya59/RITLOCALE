@@ -176,7 +176,7 @@
             android:orientation="horizontal" >
 
             <EditText
-                android:id="@+id/year"
+                android:id="@+id/pcDeptn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10" />

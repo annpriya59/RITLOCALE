@@ -18,7 +18,14 @@
         <activity android:name=".notifications"></activity>
         <activity android:name=".calendar" />
         <activity android:name=".events"></activity>
-        <activity android:name=".pc_home" />
+        <activity android:name=".pc_home" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
         <activity android:name=".vc_venueadd" />
         <activity android:name=".vc_venuedit" />
         <activity android:name=".vc_venues" />
@@ -34,11 +41,7 @@
         <activity android:name=".Editpro_hod" />
         <activity android:name=".hod_userprofile" />
         <activity android:name=".hod_home" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
 

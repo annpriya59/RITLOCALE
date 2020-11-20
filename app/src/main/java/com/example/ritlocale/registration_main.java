@@ -40,7 +40,7 @@ public class registration_main extends AppCompatActivity  {
             txtChPwd=findViewById(R.id.chpsd);
             txtPwd=findViewById(R.id.txtpsd);
             txtEmail=findViewById(R.id.txtemailR);
-            txtYear=findViewById(R.id.year);
+            txtYear=findViewById(R.id.pcDeptn);
             rm=findViewById(R.id.radioMale);
             rf=findViewById(R.id.radioBFemale);
             ro=findViewById(R.id.radioOther);
@@ -96,7 +96,7 @@ public class registration_main extends AppCompatActivity  {
                 public void onClick(View v) {
 
                     gen=(rm.isChecked())?"Male":(rf.isChecked())?"Female":(ro.isChecked())?"Other":"";
-                    txtFn.getText().toString();
+
                     p1=txtPwd.getText().toString();
                     p2=txtChPwd.getText().toString();
 
